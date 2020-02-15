@@ -1,4 +1,16 @@
 
+<a name="v0.0.3"></a>
+## [v0.0.3](https://github.com/Soontao/pdi-util/compare/v0.0.2...v0.0.3) (2020-02-15)
+
+### Bug Fixes
+
+* vendor
+
+### Common
+
+* **release:** new version
+
+
 <a name="v0.0.2"></a>
 ## [v0.0.2](https://github.com/Soontao/pdi-util/compare/v0.0.1...v0.0.2) (2020-02-15)
 
