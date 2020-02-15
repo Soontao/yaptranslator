@@ -23,5 +23,5 @@ func TestTranslatePropertiesFile(t *testing.T) {
 	tresult, e := TranslatePropertiesFile(p, tr, "en", "zh")
 	a.NoError(e)
 
-	a.Equal("a.b.c.d = 你好世界\nhello = 你好\nworld = 世界\n", tresult.String())
+	a.Equal("你好世界", tresult.MustGetString("a.b.c.d"))
 }
