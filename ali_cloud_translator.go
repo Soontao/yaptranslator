@@ -27,8 +27,7 @@ func (t *AliCloudTranslator) GetTranslation(s string, l string, tl string) (r st
 	}
 
 	if res.Code == 200 {
-		return gjson.Get(res.GetHttpContentString(), "Data.Translated").String(), e
-
+		return gjson.Get(res.GetHttpContentString(), "Data.Translated").String(), nil
 	}
 
 	// not success
