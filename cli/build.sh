@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # cli file name
-OUTPUT_FILENAME="cli"
+OUTPUT_FILENAME="yaptranslator"
 
 # platforms
 PLATFORMS="darwin/amd64"
