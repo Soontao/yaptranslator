@@ -8,6 +8,7 @@ import (
 	"strings"
 
 	"github.com/magiconair/properties"
+	"gopkg.in/cheggaaa/pb.v2"
 )
 
 // StringifyProperties with comments
@@ -20,14 +21,23 @@ func StringifyProperties(p *properties.Properties) string {
 // TranslatePropertiesFile process
 func TranslatePropertiesFile(props *properties.Properties, translator Translator, lang, target string) (*properties.Properties, error) {
 	rt := properties.NewProperties()
-	for k, v := range props.Map() {
+
+	propsMap := props.Map()
+
+	progress := pb.StartNew(len(propsMap))
+
+	for k, v := range propsMap {
 		tv, err := translator.GetTranslation(v, lang, target)
 		if err == nil {
 			rt.SetValue(k, tv)
 		} else {
 			log.Printf("translate '%s' failed from %s to %s: %v", v, lang, target, err)
 		}
+		progress.Increment()
 	}
+
+	progress.Finish()
+
 	return rt, nil
 }
 

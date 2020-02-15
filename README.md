@@ -5,3 +5,5 @@
 [![](https://godoc.org/github.com/Soontao/yaptranslator?status.svg)](http://godoc.org/github.com/Soontao/yaptranslator)
 
 Automated translate properties files by machine translation providers.
+
+## [CHANGELOG](./CHANGELOG.md)
