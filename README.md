@@ -54,7 +54,9 @@ GLOBAL OPTIONS:
 
 ## Providers
 
-### Ali Cloud Translator
+`yapt` support many different transaltion providers
+
+### Alibaba Cloud Translator (Default)
 
 Translator powered by Alibaba Cloud
 
