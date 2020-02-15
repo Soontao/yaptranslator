@@ -3,7 +3,6 @@ package main
 import (
 	"log"
 	"os"
-	"sort"
 
 	"github.com/urfave/cli"
 )
@@ -13,7 +12,7 @@ import (
 var Version = "SNAPSHOT"
 
 // AppName of this application
-var AppName = "Command Line Tool Util"
+var AppName = "Yet Another Properties (file) Translator"
 
 // AppUsage of this application
 var AppUsage = "A Command Line Tool"
@@ -23,9 +22,8 @@ func main() {
 	app.Version = Version
 	app.Name = AppName
 	app.Usage = AppUsage
-	app.EnableBashCompletion = true
-
-	sort.Sort(cli.CommandsByName(app.Commands))
+	app.Flags = options
+	app.Action = Run
 
 	if err := app.Run(os.Args); err != nil {
 		log.Fatal(err)
