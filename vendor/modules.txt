@@ -1,0 +1,23 @@
+# github.com/cpuguy83/go-md2man/v2 v2.0.0-20190314233015-f79a8a8ca69d
+github.com/cpuguy83/go-md2man/v2/md2man
+# github.com/davecgh/go-spew v1.1.0
+github.com/davecgh/go-spew/spew
+# github.com/magiconair/properties v1.8.1
+github.com/magiconair/properties
+# github.com/pmezard/go-difflib v1.0.0
+github.com/pmezard/go-difflib/difflib
+# github.com/russross/blackfriday/v2 v2.0.1
+github.com/russross/blackfriday/v2
+# github.com/shurcooL/sanitized_anchor_name v1.0.0
+github.com/shurcooL/sanitized_anchor_name
+# github.com/stretchr/testify v1.4.0
+github.com/stretchr/testify/assert
+# github.com/urfave/cli v1.22.2
+github.com/urfave/cli
+# golang.org/x/text v0.3.2
+golang.org/x/text/internal/language
+golang.org/x/text/internal/language/compact
+golang.org/x/text/internal/tag
+golang.org/x/text/language
+# gopkg.in/yaml.v2 v2.2.2
+gopkg.in/yaml.v2
