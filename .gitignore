@@ -32,3 +32,6 @@ cli/output
 # ast tests
 
 ast/**/output.json
+
+# coverage
+coverage.txt
