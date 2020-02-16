@@ -8,7 +8,7 @@ jobs:
     working_directory: ~/app
     steps:
       - checkout
-      - run: go test -race -coverprofile=coverage.txt -covermode=atomic -v -mod=vendor ./...
+      - run: go test -coverprofile=coverage.txt -covermode=atomic -v -mod=vendor ./...
       - run: bash <(curl -s https://codecov.io/bash)
       - run: go build -mod=vendor .
 
