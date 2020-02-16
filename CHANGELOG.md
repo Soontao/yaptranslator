@@ -1,4 +1,20 @@
 
+<a name="v0.0.5"></a>
+## [v0.0.5](https://github.com/Soontao/pdi-util/compare/v0.0.3...v0.0.5) (2020-02-16)
+
+### Bug Fixes
+
+* [#1](https://github.com/Soontao/pdi-util/issues/1) & another output file name bug
+
+### Common
+
+* doc
+* coverage
+* doc
+* doc
+* **release:** new version
+
+
 <a name="v0.0.3"></a>
 ## [v0.0.3](https://github.com/Soontao/pdi-util/compare/v0.0.2...v0.0.3) (2020-02-15)
 
