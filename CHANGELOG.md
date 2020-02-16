@@ -1,10 +1,10 @@
 
 <a name="v0.0.5"></a>
-## [v0.0.5](https://github.com/Soontao/pdi-util/compare/v0.0.3...v0.0.5) (2020-02-16)
+## [v0.0.5](https://github.com/Soontao/yaptranslator/compare/v0.0.3...v0.0.5) (2020-02-16)
 
 ### Bug Fixes
 
-* [#1](https://github.com/Soontao/pdi-util/issues/1) & another output file name bug
+* [#1](https://github.com/Soontao/yaptranslator/issues/1) & another output file name bug
 
 ### Common
 
@@ -16,7 +16,7 @@
 
 
 <a name="v0.0.3"></a>
-## [v0.0.3](https://github.com/Soontao/pdi-util/compare/v0.0.2...v0.0.3) (2020-02-15)
+## [v0.0.3](https://github.com/Soontao/yaptranslator/compare/v0.0.2...v0.0.3) (2020-02-15)
 
 ### Bug Fixes
 
@@ -28,7 +28,7 @@
 
 
 <a name="v0.0.2"></a>
-## [v0.0.2](https://github.com/Soontao/pdi-util/compare/v0.0.1...v0.0.2) (2020-02-15)
+## [v0.0.2](https://github.com/Soontao/yaptranslator/compare/v0.0.1...v0.0.2) (2020-02-15)
 
 ### Common
 

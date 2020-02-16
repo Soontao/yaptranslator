@@ -12,7 +12,7 @@
 *.out
 
 # binary
-pdi-util*
+yaptranslator*
 build
 test
 output
