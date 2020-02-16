@@ -12,6 +12,8 @@ Automated translate properties files by machine translation providers.
 hello=hello
 world=World
 a.b.c.d=Hello World
+
+# yapt -f ../resources/example.2.properties -l en -t zh
 # translated zh example.2_zh.properties
 world = 世界
 a.b.c.d = 你好世界

@@ -10,6 +10,7 @@ import (
 func TestAddSuffixToFileName(t *testing.T) {
 	a := assert.New(t)
 	a.Equal("./a/b/c/d_zh.properties", AddSuffixToFileName("./a/b/c/d.properties", "_zh"))
+	a.Equal("./a/b/c/descriptions_zh.properties", AddSuffixToFileName("./a/b/c/descriptions.properties", "_zh"))
 }
 
 func TestTranslatePropertiesFile(t *testing.T) {

@@ -34,6 +34,10 @@ func Run(c *cli.Context) error {
 
 	targetLang := c.GlobalString("target")
 
+	if len(sourceLang) == 0 || len(targetLang) == 0 {
+
+	}
+
 	translator, e := yaptranslator.NewTranslator(providerName, authProps)
 
 	if e != nil {
