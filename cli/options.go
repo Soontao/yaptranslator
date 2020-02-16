@@ -42,7 +42,7 @@ var options = []cli.Flag{
 	cli.StringFlag{
 		Name:   "region, r",
 		EnvVar: "YAPT_REGION",
-		Usage:  "AUTH Region",
+		Usage:  "Auth Region",
 	},
 	cli.StringFlag{
 		Name:   "key, k",

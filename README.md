@@ -47,7 +47,7 @@ GLOBAL OPTIONS:
    --service value, -s value   Service Provider for YAPT Tool (default: "ALICLOUD") [$YAPT_SERVICE_PROVIDER]
    --username value, -u value  Auth User [$YAPT_AUTH_USER]
    --password value, -p value  Auth User Password [$YAPT_AUTH_PASSWORD]
-   --region value, -r value    AUTH Region [$YAPT_REGION]
+   --region value, -r value    Auth Region [$YAPT_REGION]
    --key value, -k value       Auth Access Key [$YAPT_ACCESS_KEY]
    --secret value              Auth Access Secret [$YAPT_ACCESS_SECRET]
    --token value               Auth Token [$YAPT_AUTH_TOKEN]
