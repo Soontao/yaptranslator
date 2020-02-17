@@ -7,7 +7,7 @@ import (
 	"github.com/tidwall/gjson"
 )
 
-// AliCloudTranslator service
+// AliCloudTranslator provider
 type AliCloudTranslator struct {
 	client *alimt.Client
 }

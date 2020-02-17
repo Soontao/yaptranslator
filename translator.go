@@ -15,6 +15,8 @@ type Translator interface {
 const (
 	// ALICLOUD Translator
 	ALICLOUD = TranslatorType("ALICLOUD")
+	// AWS Translator
+	AWS = TranslatorType("AWS")
 )
 
 // NewTranslator instance
@@ -23,6 +25,8 @@ func NewTranslator(provider TranslatorType, props map[string]string) (Translator
 	switch provider {
 	case ALICLOUD:
 		return NewAliCloudTranslator(props["region"], props["key"], props["secret"])
+	case AWS:
+		return NewAWSCloudTranslator(props["region"], props["key"], props["secret"])
 	default:
 		return nil, fmt.Errorf("Not support provider: %s", provider)
 	}
