@@ -1,6 +1,7 @@
 # Yet Another Properties (file) Translator
 
 [![CircleCI](https://circleci.com/gh/Soontao/yaptranslator.svg?style=shield)](https://circleci.com/gh/Soontao/yaptranslator)
+[![Snapshot Build](https://github.com/Soontao/yaptranslator/workflows/Snapshot%20Build/badge.svg)](https://github.com/Soontao/yaptranslator/actions?query=workflow%3A%22Snapshot+Build%22)
 [![codecov](https://codecov.io/gh/Soontao/yaptranslator/branch/master/graph/badge.svg)](https://codecov.io/gh/Soontao/yaptranslator)
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/Soontao/yaptranslator.svg)](https://github.com/Soontao/yaptranslator/releases)
 [![](https://godoc.org/github.com/Soontao/yaptranslator?status.svg)](http://godoc.org/github.com/Soontao/yaptranslator)
@@ -65,6 +66,16 @@ Translator powered by Alibaba Cloud
 
 - required options:
     - region (Service region, like `cn-hangzhou`)
+    - key (Access Key ID)
+    - secret (Access Key Secret)
+
+
+### AWS Translator
+
+Translator powered by Amazon AWS Cloud
+
+- required options:
+    - region ([Service Region](https://docs.aws.amazon.com/general/latest/gr/rande.html), like `ap-southeast-1`)
     - key (Access Key ID)
     - secret (Access Key Secret)
 
