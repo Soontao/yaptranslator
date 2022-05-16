@@ -11,7 +11,7 @@ require (
 	github.com/mattn/go-isatty v0.0.10 // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/stretchr/testify v1.4.0
-	github.com/tidwall/gjson v1.5.0
+	github.com/tidwall/gjson v1.9.3
 	github.com/urfave/cli v1.22.2
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
 	golang.org/x/sys v0.0.0-20191128015809-6d18c012aee9 // indirect
