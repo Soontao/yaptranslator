@@ -4,13 +4,13 @@ go 1.13
 
 require (
 	github.com/aliyun/alibaba-cloud-sdk-go v1.60.380
-	github.com/aws/aws-sdk-go v1.29.3
+	github.com/aws/aws-sdk-go v1.33.0
 	github.com/json-iterator/go v1.1.9 // indirect
 	github.com/magiconair/properties v1.8.1
 	github.com/mattn/go-colorable v0.1.2 // indirect
 	github.com/mattn/go-isatty v0.0.10 // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
-	github.com/stretchr/testify v1.4.0
+	github.com/stretchr/testify v1.5.1
 	github.com/tidwall/gjson v1.5.0
 	github.com/urfave/cli v1.22.2
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
